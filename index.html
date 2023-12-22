@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <title>Menu</title>
+  </head>
+  <body>
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"
+        ></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/banner1.png" class="d-block w-100 h-25" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner1.png" class="d-block w-100 h-25" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="img/banner1.png" class="d-block w-100 h-25" alt="..." />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div
+        class="collapse navbar-collapse d-flex justify-content-center"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about-information">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu-information">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="#contact-information"
+              id="navbarDropdown"
+              role="button"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container d-block">
+      <!-- Main -->
+      <div class="container-md about-container" id="about-information">
+        <h2 class="text-center p-4">About Info</h2>
+        <hr />
+        <div class="row">
+          <div class="col-sm">
+            <img class="w-100 h-100" src="img/hamburguer.png" alt="" />
+          </div>
+          <div class="col-sm p-5">
+            <h3>RestoApp</h3>
+            <p class="text-justify">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam
+              dolore architecto nemo illo, cum nam dolorum natus cumque earum
+              enim. Quaerat iusto consectetur deleniti, obcaecati maxime,
+              repellat minus illo itaque asperiores nemo adipisci molestiae?
+              Fuga dicta voluptatem eligendi repudiandae adipisci nulla at iusto
+              qui id error totam tempora officiis modi nam architecto cupiditate
+              nisi, sequi non quos deleniti dolorum tenetur facilis culpa.
+              Cumque, facilis deserunt. Qui laborum dolorem iste omnis suscipit
+              consequatur dolores maxime, molestias commodi nostrum possimus
+              rerum quibusdam, mollitia ab placeat, sunt in corporis aliquam
+              aperiam? Quae perspiciatis facilis ad inventore quibusdam alias,
+              dolores dignissimos reprehenderit numquam accusantium sed aut
+              aliquid, non totam voluptatibus dolore. Quia minima in, quasi ad
+              nisi, esse sunt provident porro aliquam at, rerum doloremque.
+              Minus debitis similique praesentium, nemo, minima sequi ad quaerat
+              rerum, impedit omnis dicta eos at. Assumenda, vitae. Quo magnam
+              non corrupti a. Odit, recusandae cupiditate! Veritatis error
+              maxime voluptatibus.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-md card-items p-2 menu-container" id="menu-information">
+        <h2 class="text-center mt-4">Menu Info</h2>
+        <hr />
+        <div class="row">
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+
+          <div class="card p-2 col-4">
+            <img src="img/banner.jpg" alt="" />
+            <div class="card-body">
+              <h2 class="card-title">Comida</h2>
+              <p class="card-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto,
+                facere.
+              </p>
+              <p><strong>Gs. 45.000</strong></p>
+              <a href="#" class="btn btn-primary">Ordenar</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-md p-4 contact-container" id="contact-information">
+      <h2 class="text-center">Contact Information</h2>
+      <hr>
+      <div class="row">
+        <div class="col-6">
+          <form action="">
+            <label for="">Full Name</label>
+            <input type="text" class="form-control" placeholder="Full Name">
+
+            <label for="">Mail</label>
+            <input type="text" class="form-control" placeholder="Contact e-mail">
+
+            <label for="">Message</label>
+            <textarea name="" id="" cols="30" rows="10" class="form-control"></textarea>
+            <br>
+            <input type="submit" class="btn btn-primary" value="Send">
+          </form>
+        </div>
+        <div class="col-6">
+          <div class="card contact-card">
+            <h2>Contact</h2>
+            <div class="card-body">
+              <p><i class="fa fa-phone" aria-hidden="true"></i><strong>  Phone:</strong> +595 896 871</p>
+              <p><i class="fa fa-envelope" aria-hidden="true"></i> <strong>  E-mail:</strong> example@example.com</p>
+              <p><i class="fa fa-facebook-official" aria-hidden="true"></i><strong>  Facebook:</strong> <a href="#">page.com</a></p>
+              <p><i class="fa fa-instagram" aria-hidden="true"></i><strong>  Instagram:</strong> <a href="#">page.com</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy - Todos los derechos reservados</footer>
+
+    <!-- Scripts -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

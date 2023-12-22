@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.about-container{
+    margin-top: 50px;
+}
+
+.menu-container{
+    margin-top: 50px;
+}
+
+.navbar ul li a{
+    color: white;
+    font-weight: 500;
+}
+
+.navbar ul li a:hover{
+    border-bottom: 2px solid white;
+}
+
+.card{
+    width: 25rem;
+}
+
+.contact-container{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.contact-card{
+    width: 100%;
+    border: none;
+    padding: 15px;
+}
+
+footer{
+    position: static;
+    display: flex;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    padding: 30px;
+    justify-content: center;
+}
